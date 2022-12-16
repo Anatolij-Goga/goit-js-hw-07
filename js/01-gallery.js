@@ -44,3 +44,5 @@ function onGalleryContainerClick(event) {
     }
   });
 }
+
+console.log(galleryItems);
