@@ -18,7 +18,6 @@ function creatGalleryItemsMarkup(galleryItems) {
         />
       </a>
       </li>
-     
     </ul>`;
     })
     .join('');
