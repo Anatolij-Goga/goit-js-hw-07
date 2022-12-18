@@ -40,7 +40,9 @@ function onGalleryContainerClick(event) {
 
   galleryListElement.addEventListener('keydown', event => {
     if (event.code === 'Escape') {
-      instance.close();
+      instance.close(() => {
+        galleryListElement.removeEventListener;
+      });
     }
   });
 }
